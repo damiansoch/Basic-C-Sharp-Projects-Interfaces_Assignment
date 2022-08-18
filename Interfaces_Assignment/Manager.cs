@@ -4,10 +4,9 @@ using System.Text;
 
 namespace Interfaces_Assignment
 {
-    public interface IQuittable
+    class Manager : Employee, IQuittable
     {
-        public void Quit(Employee employee);
 
-
+        public string Section { get; set; }
     }
 }
